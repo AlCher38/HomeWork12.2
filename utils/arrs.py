@@ -1,6 +1,3 @@
-"first commit""""Функции для работы с массивами"""
-
-
 def get(array, index, default=None):
     """
     Извлекает из списка значение по указанному индексу, если индекс существует.
@@ -13,7 +10,7 @@ def get(array, index, default=None):
     """
 
     if 0 <= index < len(array):
-        return array[index]
+        return array[index] + 1
     return default
 
 
